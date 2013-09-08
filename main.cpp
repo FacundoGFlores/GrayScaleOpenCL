@@ -22,8 +22,6 @@
 
 #include "reference.hpp"
 
-#include <sys/time.h>
-
 //  Load an image using the OpenCV library and create an OpenCL
 //  image out of it
 cl::Image2D LoadImage(cl::Context context, char *fileName, int &width, int &height)
